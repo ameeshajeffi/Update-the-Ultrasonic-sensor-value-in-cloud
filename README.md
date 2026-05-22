@@ -196,6 +196,20 @@ if((new_time-old_time>=uplink_interval)&&(network_joined_status==1)){
   }
 }
 ```
+# uplink formatter
+```
+function Decoder(bytes, port) {
+  // Extract distance from the first two bytes
+  var distance = (bytes[0] << 8) + bytes[1];
+
+  // Convert to centimeters (assuming millimeters are being sent)
+  var distance_in_cm = distance / 100;
+
+  return {
+    "distance": distance_in_cm
+  }
+};
+```
 # CIRCUIT DIAGRAM:
 <img width="1248" height="1600" alt="WhatsApp Image 2026-05-19 at 2 29 07 PM" src="https://github.com/user-attachments/assets/aef2ba9e-1102-4e74-899c-815e529577d0" />
 
