@@ -1,3 +1,6 @@
+NAME: AMEESHA JEFFI
+REG:212223220007
+
 # Update-the-Ultrasonic-sensor-value-in-Things Mate
 
 # AIM:
@@ -196,7 +199,7 @@ if((new_time-old_time>=uplink_interval)&&(network_joined_status==1)){
   }
 }
 ```
-# uplink formatter
+# UPLINK FORMATTER
 ```
 function Decoder(bytes, port) {
   // Extract distance from the first two bytes
