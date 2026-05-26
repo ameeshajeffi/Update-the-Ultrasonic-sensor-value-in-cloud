@@ -1,5 +1,7 @@
-NAME: AMEESHA JEFFI
-REG:212223220007
+## EXP 6
+
+# Name:Ameesha Jeffi 
+# Reg no:212223220007
 
 # Update-the-Ultrasonic-sensor-value-in-Things Mate
 
